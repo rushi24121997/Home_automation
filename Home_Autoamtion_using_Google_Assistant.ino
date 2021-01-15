@@ -55,9 +55,9 @@ void setup() {
   Serial.println(WiFi.localIP());
  
   mqtt.subscribe(&Light1);
- /* mqtt.subscribe(&Light3);
+  mqtt.subscribe(&Light3);
   mqtt.subscribe(&Light2);
-  mqtt.subscribe(&Light4);*/
+  mqtt.subscribe(&Light4);
 }
 
 void loop() {
